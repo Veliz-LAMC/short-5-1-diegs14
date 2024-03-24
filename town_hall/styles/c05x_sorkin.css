@@ -1,12 +1,70 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-color: yellow;
     width: 650px;
     margin: auto;
-    border: thick double blue;
+    border: 10px double blue;
+    background-color: white;
 
 }
+
+html {
+    background-color: yellow;
+}
+
 main {
-    padding: ;
+    padding: 1em;
+}
+
+footer {
+    border-top: medium solid blue;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150%;
+    color: blue;
+    margin: 1px;
+}
+
+h2 {
+    font-size: 125%;
+    margin-bottom: -10px;
+}
+
+h3 {
+    font-size: 115%;
+}
+
+
+li {
+    text-align: left;
+    margin-left: -20px;
+    margin-bottom: 4px;
+}
+
+blockquote {
+    margin-left: -3px;
+    font-size: 100%;
+}
+
+cite {
+    color: blue;
+    font-style: normal;
+}
+
+.citation {
+    text-align: right;
+    margin-bottom: 0.75em;
+    margin-top: -10px;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
